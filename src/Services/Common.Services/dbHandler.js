@@ -1,5 +1,6 @@
-const sqlite3 = require('sqlite3').verbose();
-//git1
+const sqlite3 = re
+//ev
+
 const DataTypes = {
   TEXT: 'TEXT',
   INTEGER: 'INTEGER',
