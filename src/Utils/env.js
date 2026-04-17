@@ -1,10 +1,11 @@
 const fs = require('fs');
-
+//git
 function loadEnv() {
   const env = {};
   try {
     const res = fs.readFileSync('.env', 'utf8');
-    res.split(/\?\
+    res.split(/\
+?\
 /).forEach((line) => {
       if (!line || /^\s*#/.test(line)) return;
       const idx = line.indexOf('=');
