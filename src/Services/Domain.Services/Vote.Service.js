@@ -1,7 +1,7 @@
 const { Tables } = require('../../Constants/Tables');
 const { SqliteDatabase } = require('../Common.Services/dbHandler');
 const settings = require('../../settings.json').settings;
-
+//github
 class VoteService {
   constructor(message) {
     this.message = message;
