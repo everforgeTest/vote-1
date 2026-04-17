@@ -1,6 +1,6 @@
 const fs = require('fs');
 const settings = require('../../settings.json').settings;
-
+//from git
 (function cleanup() {
   try {
     if (fs.existsSync(settings.dbPath)) {
