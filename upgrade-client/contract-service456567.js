@@ -1,6 +1,6 @@
 const HotPocket = require('hotpocket-js-client');
 const bson = require('bson');
-
+//hhjk
 class ContractService {
   constructor(servers, keypair) {
     this.servers = servers;
