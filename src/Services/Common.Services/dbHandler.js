@@ -1,5 +1,5 @@
 const sqlite3 = require('sqlite3').verbose();
-
+//git1
 const DataTypes = {
   TEXT: 'TEXT',
   INTEGER: 'INTEGER',
